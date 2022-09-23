@@ -1,3 +1,4 @@
+/* Body Styling */
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-image: url('https://source.unsplash.com/1600x900/?landscape')
 }
-
+/* Styling for the card */
 .card {
     background: #000000d0;
     color: white;
@@ -18,13 +19,14 @@ body {
     max-width: 300px;
 }
 
-
+/* Style for search bar */
 
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* Styling for search button */
 button {
     margin: 0.5em;
     border-radius: 50%;
@@ -49,7 +51,7 @@ input.search-bar {
     font-size: 105%;
     width: calc(100%-100px);
 }
-
+/* Button on-hover styles */
 button:hover {
     background: #7c7c7c6b;
 }
@@ -75,7 +77,7 @@ h1.temp{
     max-height: 20px;
     position: relative;
 }
-
+/* While loading styling */
 .weather.loading:after{
     visibility: visible;
     content: "Loading...";
